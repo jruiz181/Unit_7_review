@@ -24,8 +24,16 @@
 /* General Flex Styles */
 
 
+body{
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
 
+}
 
+section#left{
+   -webkit-flex: 1 8 351px;
+   flex: 1 8 351px;
+}
 
 
 /* ===============================
